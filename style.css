@@ -13,6 +13,12 @@
 .side1{
     width: 50%;
 }
+.side2{
+    width: calc(100 / 3 * 100%);
+}
+.side3{
+    width: calc(100 / 4 * 100%);
+}
 .btn{
     text-decoration: none;
     font-size: 20px;
@@ -82,7 +88,6 @@ ul li a{
 .banner_text a{
     margin-top: 50px;
 }
-
 .banner_img img{
     width: 98%;
 }
@@ -124,4 +129,99 @@ ul li a{
 /*ABOUT AREA ENDS*/
 
 
+/*RECIPE AREA STARTS*/
+.recipe_area{
+    margin-top: 80px;
+}
+.recipe_area .heading{
+    text-align: center;
+}
+.recipe_area .heading h1{
+    font-size: 40px;
+    color: #575757;
+}
+.recipe_area .heading p{
+    font-size: 20px;
+    color: #333;
+    width: 600px;
+    margin: 30px auto;
+}
+.recipe_content{
+    margin-top: 40px;
+}
+.recipe_box{
+    box-shadow: 1px 1px 30px #d9d9d9;
+    margin: 0 25px;
+    padding: 17px 18px;
+    border-radius: 25px;
+}
+.recipe_box img{
+    width: 100%;
+}
+.recipe_box h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #222;
+    margin-top: 30px;
+}
+.recipe_box p{
+    font-size: 20px;
+    font-weight: normal;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*RECIPE AREA ENDS*/
 
+/*BOOKING AREA STARTS*/
+.booking_area{
+    background-image: url(images/frame2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 80px;
+    padding: 120px 0;
+}
+.booking_area .heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.booking_area .heading h2{
+    font-size: 40px;
+    color: #575757;
+}
+.form_area{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px #d9d9d9;
+}
+.form_area input{
+    width: 90%;
+    height: 70px;
+    border: none;
+    background-color: #f9f9f9;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.form_area #person{
+    width: 95%;
+    height: 70px;
+    border: none;
+    background-color: #f9f9f9;
+    padding: 0 10px;
+    font-size: 16px;
+}
+.form_area .book_btn{
+    width: 90%;
+    height: 70px;
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    background: linear-gradient(to right, #FD4E30,#FB9149);
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*BOOKING AREA ENDS*/
