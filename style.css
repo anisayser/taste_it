@@ -2,7 +2,29 @@
     margin: 0;
     padding: 0;
 }
+/*UTILITIES*/
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+}
+.side1{
+    width: 50%;
+}
+.btn{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e9e9e9;
+    padding: 20px 35px;
+    border-radius: 100px;
+    background: linear-gradient(to right, #FD4E30,#FB9149);
+}
+/*UTILITIES*/
 
+/*HEADER AREA STARTS*/
 ul{
     list-style: none;
     padding: 10px 50px;
@@ -13,6 +35,7 @@ ul{
     width: 90px;
     float: left;
     margin-top: 10px;
+    margin-left: 50px;
 }
 ul li{
     float: inherit;
@@ -31,3 +54,40 @@ ul li a{
     border: 1px solid #FD4E30;
     border-radius: 5px;
 }
+/*HEADER AREA ENDS*/
+
+
+
+/*BANNER AREA STARTS*/
+.banner_area{
+    margin-top: 50px;
+}
+.banner_text{
+    margin-top: 150px;
+}
+.banner_text h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: #575757;
+}
+.banner_text h1 span{
+    color: #FD4E30;
+}
+.banner_text p{
+    font-size: 22px;
+    line-height: 30px;
+    color: #828282;
+    margin-top: 40px;
+}
+.banner_text a{
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.banner_img img{
+    width: 98%;
+}
+
+/*BANNER AREA ENDS*/
+
+
