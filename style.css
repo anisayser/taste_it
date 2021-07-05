@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo{
+    width: 90px;
+    float: left;
+    margin-top: 10px;
+}
+ul li{
+    float: inherit;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 16px;
+    color: #444;
+    padding: 20px 30px;
+    display: block;
+}
+#order_btn{
+    padding: 20px 50px;
+    border: 1px solid #FD4E30;
+    border-radius: 5px;
+}
